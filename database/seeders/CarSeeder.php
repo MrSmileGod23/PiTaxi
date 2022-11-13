@@ -19,7 +19,7 @@ class CarSeeder extends Seeder
             [
                 'vin' => 'XW7BN4FK30S112105',
                 'regNumber' => 'С568РН174',
-                'brand_id' => '5',
+                'brand_id' => '2',
                 'model' => 'Accord',
                 'color' => 'Ярко-красный',
                 'year' => '2020',
@@ -28,7 +28,7 @@ class CarSeeder extends Seeder
             [
                 'vin' => 'XW7BN4FK30S112105',
                 'regNumber' => 'К314ОМ174',
-                'brand_id' => '5',
+                'brand_id' => '3',
                 'model' => 'Galaxy',
                 'color' => 'Серо-чёрный',
                 'year' => '2000',
