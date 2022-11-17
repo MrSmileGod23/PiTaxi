@@ -16,4 +16,12 @@ class CarApiController extends Controller
     public function show($id){
         return CarResource::make(Car::find($id));
     }
+
+    public function search(Request $request){
+        $query = $request->get('query');
+        $cars=Car::with('brand')
+            ->where('model','LIKE',"%$query%")
+            ->get();
+        return CarResource::collection($cars);
+    }
 }
